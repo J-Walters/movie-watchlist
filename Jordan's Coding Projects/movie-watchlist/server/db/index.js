@@ -4,7 +4,6 @@ const dbConnection = new Sequelize(
     'postgres://jordanwalters@localhost:5432/moviewatchlist'
 )
 
-module.exports = dbConnection
 
 /*
     Movie model
@@ -52,6 +51,11 @@ Movie.belongsToMany(Genre, {through: 'movies_genres'})
 Genre.belongsToMany(Movie, {through: 'movies_genres'})
 
 
+module.exports = {
+    dbConnection,
+    Movie,
+    Genre
+}
 
 
 
