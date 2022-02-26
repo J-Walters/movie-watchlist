@@ -26,7 +26,7 @@
         X Defining a route to send back an HTML page with a form to create a genre
         X Defining a route to send back an HTML page with a form to enter a new movie
         X Defining a route to send back an HTML page with the list of movies in the database
-        - Adding functionality for setting a movie to "watched" and "unwatched"
+        X Adding functionality for setting a movie to "watched" and "unwatched"
         -Updating the movies listing routes to filter by genre and "unwatched"
         -Route for a random movie
         - Styling
